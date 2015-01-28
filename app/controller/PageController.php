@@ -4,7 +4,7 @@ class PageController
 {
     public function main()
     {
-        echo 'Bla!';
+        Response::parse('app/view/page.php');
     }
 }
 
